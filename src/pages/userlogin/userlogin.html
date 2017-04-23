@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      User Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style=" background-image: url(assets/img/backwithlogo.jpg); background-size:contain">
+<ion-list style="margin-top: 300px;">
+
+    <ion-item>
+      <ion-input type="text" placeholder="Username"  ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" placeholder="Password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button clear (click)="login()"> login</button>
+  
+    <button ion-button clear (click)="createemployee()"> create an account</button>
+  </div>
+</ion-content>
